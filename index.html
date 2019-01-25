@@ -1,201 +1,265 @@
-<!DOCTYPE HTML>
-<html lang="pt-br">
+<!doctype html>
+<!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="pt-br" class="no-js">
+<!--<![endif]-->
 <head>
-	<title>Allan Marques</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="UTF-8">
-	
-	
-	<!-- Font -->
-	
-	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700%7CAllura" rel="stylesheet">
-	
-	<!-- Stylesheets -->
-	
-	<link href="common-css/bootstrap.css" rel="stylesheet">
-	
-	<link href="common-css/ionicons.css" rel="stylesheet">
-	
-	<link href="common-css/fluidbox.min.css" rel="stylesheet">
-	
-	<link href="01-cv-portfolio/css/styles.css" rel="stylesheet">
-	
-	<link href="01-cv-portfolio/css/responsive.css" rel="stylesheet">
-	
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!--[if lt IE 9]> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <![endif]-->
+<title>Allan Marques - Web Designer - UX / UI Designer</title>
+<meta name="description" content="A solução web para seu negócio. Converta tráfego em vendas com o design mais belo e preciso do mercado ">
+<meta name="author" content="Allan Marques">
+<!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<!--[if lte IE 8]>
+		<script type="text/javascript" src="http://explorercanvas.googlecode.com/svn/trunk/excanvas.js"></script>
+	<![endif]-->
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
+<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/da-slider.css" />
+<link rel="stylesheet" href="css/styles.css" />
+<!-- Font Awesome -->
+<link href="css/font-awesome.min.css" rel="stylesheet">
 </head>
+
 <body>
-	
-	<header>
-		<div class="container">
-			<div class="heading-wrapper">
-				<div class="row">
-					<div class="col-sm-6 col-md-6 col-lg-4">
-						<div class="info">
-							<i class="icon ion-ios-location-outline"></i>
-							<div class="right-area">
-								<h5>Centro</h5>
-								<h5>Sossego, PB</h5>
-							</div><!-- right-area -->
-						</div><!-- info -->
-					</div><!-- col-sm-4 -->
-					
-					<div class="col-sm-6 col-md-6 col-lg-4">
-						<div class="info">
-							<i class="icon ion-ios-telephone-outline"></i>
-							<div class="right-area">
-								<h5>(83) 99158-9833</h5>
-								<h6>SEG - SEX,7AM - 6PM</h6>
-							</div><!-- right-area -->
-						</div><!-- info -->
-					</div><!-- col-sm-4 -->
-					
-					<div class="col-sm-6 col-md-6 col-lg-4">
-						<div class="info">
-							<i class="icon ion-ios-chatboxes-outline"></i>
-							<div class="right-area">
-								<h5>allan.sossego@hotmail.com</h5>
-								<h6>RESPONDO RAPIDAMENTE</h6>
-							</div><!-- right-area -->
-						</div><!-- info -->
-					</div><!-- col-sm-4 -->
-				</div><!-- row -->
-			</div><!-- heading-wrapper -->
-			
-			<!--<a class="downlad-btn" href="#">Download CV</a>-->
-		</div><!-- container -->
-	</header>
-	
-	<section class="intro-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-1 col-lg-2"></div>
-				<div class="col-md-10 col-lg-8">
-					<div class="intro">
-						<div class="profile-img"><img src="images/profile-1.jpg" alt=""></div>
-						<h2><b>Allan Marques</b></h2>
-						<h4 class="font-yellow">Web Designer</h4>
-						<ul class="information margin-tb-30">
-							<li><b>Whatsapp : </b>(83) 99158-9833</li>
-							<li><b>EMAIL : </b>allan.sossego@hotmail.com</li>
-						</ul>
-						<ul class="social-icons">
-							<li><a href="#"><i class="ion-social-pinterest"></i></a></li>
-							<li><a href="https://www.linkedin.com/in/allandev"><i class="ion-social-linkedin"></i></a></li>
-							<li><a href="https://www.instagram.com/allan.so/"><i class="ion-social-instagram"></i></a></li>
-							<li><a href="https://www.facebook.com/allan.marques.944"><i class="ion-social-facebook"></i></a></li>
-							<li><a href="#"><i class="ion-social-twitter"></i></a></li>
-						</ul>
-					</div><!-- intro -->
-				</div><!-- col-sm-8 -->
-			</div><!-- row -->
-		</div><!-- container -->
-	</section><!-- intro-section -->
-	
-	<section class="portfolio-section section">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-4">
-					<div class="heading">
-						<h3><b>Portfólio</b></h3>
-						<h6 class="font-lite-black"><b>MEUS TRABALHOS</b></h6>
-					</div>
-				</div><!-- col-sm-4 -->
-				<div class="col-sm-8">
-					<div class="portfolioFilter clearfix margin-b-80">
-						<a href="#" data-filter="*" class="current"><b>ALL</b></a><!-- 
-						<a href="#" data-filter=".web-design"><b>WEB DESIGN</b></a>
-						<a href="#" data-filter=".branding"><b>BRANDING</b></a>
-						<a href="#" data-filter=".graphic-design"><b>GRAPHIC DESIGN</b></a>
-					</div>portfolioFilter -->
-				</div><!-- col-sm-8 -->
-			</div><!-- row -->
-		</div><!-- container -->
-		
-		<div class="portfolioContainer">
-			
-			<div class="p-item web-design">
-				<a href="images/portfolio-1-600x400.jpg" data-fluidbox>
-					<img src="images/portfolio-1-600x400.jpg" alt=""></a>
-			</div><!-- p-item -->
-			
-			<!--<div class="p-item branding graphic-design">
-				<a href="images/portfolio-7-600x800.jpg" data-fluidbox>
-					<img src="images/portfolio-7-600x800.jpg" alt=""></a>
-			</div> p-item -->
-			
-			<div class="p-item web-design">
-				<a href="images/portfolio-2-600x400.jpg" data-fluidbox>
-					<img src="images/portfolio-2-600x400.jpg" alt=""></a>
-			</div><!-- p-item -->
-			<!--
-			<div class="p-item p-item-2 graphic-design">
-				<a class="img" href="images/portfolio-8-300x400.jpg" data-fluidbox>
-					<img src="images/portfolio-8-300x400.jpg" alt=""></a>
-				<a class="img" href="images/portfolio-9-300x400.jpg" data-fluidbox>
-					<img src="images/portfolio-9-300x400.jpg" alt=""></a>
-			</div> p-item -->
-			
-			<div class="p-item branding graphic-design">
-				<a href="images/portfolio-3-600x400.jpg" data-fluidbox>
-					<img src="images/portfolio-3-600x400.jpg" alt=""></a>
-			</div><!-- p-item -->
-			
-			<div class="p-item graphic-design web-design">
-				<a href="images/portfolio-4-600x400.jpg" data-fluidbox>
-					<img src="images/portfolio-4-600x400.jpg" alt=""></a>
-			</div><!-- p-item -->
-			
-			<div class="p-item  graphic-design branding">
-				<a href="images/portfolio-5-600x800.jpg" data-fluidbox>
-					<img src="images/portfolio-5-600x800.jpg" alt=""></a>
-			</div><!-- p-item -->
-				
-			<div class="p-item web-design branding">
-				<a href="images/portfolio-6-600x800.jpg" data-fluidbox>
-					<img src="images/portfolio-6-600x800.jpg" alt=""></a>
-			</div><!-- p-item -->
-			<!--
-			<div class="p-item p-item-2 graphic-design">
-				<a class="img" href="images/portfolio-10-300x400.jpg" data-fluidbox>
-					<img src="images/portfolio-10-300x400.jpg" alt=""></a>
-				<a class="img" href="images/portfolio-11-300x400.jpg" data-fluidbox>
-					<img src="images/portfolio-11-300x400.jpg" alt=""></a>
-			</div> p-item -->
-		
-		</div><!-- portfolioContainer -->
-		
-	</section><!-- portfolio-section -->
-	<br> <br> <br> <br>
-	
-	<footer>
-		<p class="copyright">
-			<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> 
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-		</p>
+<header class="header">
+  <div class="container">
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div class="navbar-header">
+        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Navegação</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        </div>
+      <!--/.navbar-header-->
+      <div id="main-nav" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav" id="mainNav">
+          <li class="active"><a href="#home" class="scroll-link">Início</a></li>
+          <li><a href="#aboutUs" class="scroll-link">Sobre</a></li>
+          <li><a href="#portfolio" class="scroll-link">Portfólio</a></li>
+          <li><a href="#contactUs" class="scroll-link">Contato</a></li>
+        </ul>
+      </div>
+      <!--/.navbar-collapse--> 
+    </nav>
+    <!--/.navbar--> 
+  </div>
+  <!--/.container--> 
+</header>
+<!--/.header-->
+<div id="#top"></div>
+<section id="home">
+  <div class="banner-container"> <img src="images/banner-bg.jpg" alt="banner" />
+    <div class="container banner-content"> 
+            <div class="row">
+                <header class="centered">
+                    <h1>Allan Marques</h1>
+                    <p>WEB DESIGNER - UX / UI DESIGNER</p>
+                </header>
+                <div class="social-icons">
+                        <!-- <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a> -->
+                        <a href="https://www.facebook.com/allan.marques.944" target="_blank"><i class="fa fa-facebook"></i></a>
+						 <a href="https://plus.google.com/106480345425838136142" target="_blank"><i class="fa fa-google-plus"></i></a>
+                       <!--  <a href="https://www.dribbble.com/"><i class="fa fa-dribbble"></i></a> -->
+                        <a href="https://www.linkedin.com/in/allandev/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+                        <!--  <a href="https://www.pinterest.com/"><i class="fa fa-pinterest"></i></a> -->
+                       
+                    
+                </div>
+                <!-- <a href="#" class="hireMe">Hire Me</a> -->
+            </div> 
+  </div>
+</section>
+<section id="introText">
+  <div class="container">
+    <div>
+      <h1>Belo design? Sim. Resultados? Sim!</h1>
+      <p> Além de ter um design moderno e prático, é importante estar atento para a principal função de um site: <b>vender ou promover</b>. Esta é a minha proposta, farei seu site gerar dinheiro por você. </p>
+      <p>Utilizo técnicas de UX Designer para fornecer a melhor experiência de usabilidade ao seu cliente e, claro, 
+      toda responsividade e harmonia que ele merece.</p>
+    </div>
+  </div>
+</section>
+<!--About-->
+<section id="aboutUs">
+  <div class="container">
+    <div class="row"> 
+      <!-- item -->
+      <div class="col-md-4 tileBox"> <img src="images/photo-1.jpg" alt="me"/> </div>
+      <div class="col-md-8 tileBox">
+        <div class="txtHead">
+          <h2>Olá, eu sou Allan Marques...</h2>
+          <h3> Web UI/UX Designer / Desenvolvedor Frontend</h3>
+        </div>
+        <p>Estudei por três anos Ciências e Tecnologia - Tecnologia da Computação na <b>Universidade Federal do Rio Grande do Norte</b>, recentemente troquei de curso e fui para a <b>Universidade Federal de Campina Grande </b>. Nesse intervalo de tempo trabalhei tanto no front-end quanto no back-end, mas nada me atraiu mais que a área de experiência do usuário, a qual pretendo me dedicar mais assiduamente <br/>
+          <br/>
+        </p>
+      </div>
+      <!-- end: --> 
+    </div>
+  </div>
+</section>
+<!--Quote-->
+<section id="quote" class="bg-parlex">
+  <div class="parlex-back">
+    <div class="container">
+     <div class="row">
+	<div class="col-md-12">      <h2>“ [...] Mas ainda há muita coisa bonita, e embora atualmente o amor e a tristeza estejam misturados em todas as terras, talvez o primeiro ainda cresça com mais força.” <span> - J. R. R. Tolkien</span></h2></div>
+      </div>
+    </div>
+    <!--/.container--> 
+  </div>
+</section>
 
 
-	</footer>
-	
-	
-	<!-- SCIPTS -->
-	
-	<script src="common-js/jquery-3.2.1.min.js"></script>
-	
-	<script src="common-js/tether.min.js"></script>
-	
-	<script src="common-js/bootstrap.js"></script>
-	
-	<script src="common-js/isotope.pkgd.min.js"></script>
-	
-	<script src="common-js/jquery.waypoints.min.js"></script>
-	
-	<script src="common-js/progressbar.min.js"></script>
-	
-	<script src="common-js/jquery.fluidbox.min.js"></script>
-	
-	<script src="common-js/scripts.js"></script>
-	
+<!--Portfolio-->
+<section id="portfolio" class="page-section section appear clearfix secPad">
+  <div class="container">
+    <div class="heading"> 
+      <!-- Heading -->
+      <h2>Portfólio</h2>
+      <p>Alguns dos últimos projetos que trabalhei.</p>
+    </div>
+    <div class="row">
+      <nav id="filter" class="col-md-12">
+        <ul>
+          <li><a href="#" class="current btn-theme btn-small" data-filter="*">All</a></li>
+          <li><a href="#" class="btn-theme btn-small" data-filter=".webdesign">Web Design</a></li>
+          <li><a href="#" class="btn-theme btn-small" data-filter=".photography">Site Gerenciável</a></li>
+        </ul>
+      </nav>
+      <div class="col-md-12">
+        <div class="row">
+          <div class="portfolio-items isotopeWrapper clearfix" id="3">
+            <article class="col-sm-4 isotopeItem webdesign">
+              <div class="portfolio-item"> <img src="images/portfolio/img1.jpg" alt="" />
+                <div class="portfolio-desc align-center">
+                  <div class="folio-info"> <a href="images/portfolio/img1.jpg" class="fancybox">
+                    <h5>Lopes Lançamentos</h5>
+                    <i class="fa fa-plus-square-o fa-2x"></i></a> </div>
+                </div>
+              </div>
+            </article>
+            <article class="col-sm-4 isotopeItem photography">
+              <div class="portfolio-item"> <img src="images/portfolio/img2.jpg" alt="" />
+                <div class="portfolio-desc align-center">
+                  <div class="folio-info"> <a href="images/portfolio/img2.jpg" class="fancybox">
+                    <h5>Mandino Imóveis</h5>
+                    <i class="fa fa-plus-square-o fa-2x"></i></a> </div>
+                </div>
+              </div>
+            </article>
+            <article class="col-sm-4 isotopeItem webdesign">
+              <div class="portfolio-item"> <img src="images/portfolio/img3.jpg" alt="" />
+                <div class="portfolio-desc align-center">
+                  <div class="folio-info"> <a href="images/portfolio/img3.jpg" class="fancybox">
+                    <h5>Perfect World Asgard</h5>
+                    <i class="fa fa-plus-square-o fa-2x"></i></a> </div>
+                </div>
+              </div>
+            </article>
+            <article class="col-sm-4 isotopeItem webdesign">
+              <div class="portfolio-item"> <img src="images/portfolio/img4.jpg" alt="" />
+                <div class="portfolio-desc align-center">
+                  <div class="folio-info"> <a href="images/portfolio/img4.jpg" class="fancybox">
+                    <h5>RPG - As Crônicas de Gelo e Fogo</h5>
+                    <i class="fa fa-plus-square-o fa-2x"></i></a> </div>
+                </div>
+              </div>
+            </article>
+            <article class="col-sm-4 isotopeItem webdesign">
+              <div class="portfolio-item"> <img src="images/portfolio/img5.jpg" alt="" />
+                <div class="portfolio-desc align-center">
+                  <div class="folio-info"> <a href="images/portfolio/img5.jpg" class="fancybox">
+                    <h5>Elficar</h5>
+                    <i class="fa fa-plus-square-o fa-2x"></i></a> </div>
+                </div>
+              </div>
+            </article>
+            <article class="col-sm-4 isotopeItem webdesign">
+              <div class="portfolio-item"> <img src="images/portfolio/img6.jpg" alt="" />
+                <div class="portfolio-desc align-center">
+                  <div class="folio-info"> <a href="images/portfolio/img6.jpg" class="fancybox">
+                    <h5>Provador de Teoremas</h5>
+                    <i class="fa fa-plus-square-o fa-2x"></i></a> </div>
+                </div>
+              </div>
+            </article>
+            <article class="col-sm-4 isotopeItem webdesign">
+              <div class="portfolio-item"> <img src="images/portfolio/img7.jpg" alt="" />
+                <div class="portfolio-desc align-center">
+                  <div class="folio-info"> <a href="images/portfolio/img7.jpg" class="fancybox">
+                    <h5>Monap</h5>
+                    <i class="fa fa-plus-square-o fa-2x"></i></a> </div>
+                </div>
+              </div>
+            </article>
+            <article class="col-sm-4 isotopeItem webdesign">
+              <div class="portfolio-item"> <img src="images/portfolio/img8.jpg" alt="" />
+                <div class="portfolio-desc align-center">
+                  <div class="folio-info"> <a href="images/portfolio/img8.jpg" class="fancybox">
+                    <h5>Perfect World God</h5>
+                    <i class="fa fa-plus-square-o fa-2x"></i></a> </div>
+                </div>
+              </div>
+            </article>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Contact -->
+<section id="contactUs" class="page-section secPad">
+  <div class="container">
+    <div class="row">
+      <div class="heading"> 
+        <!-- Heading -->
+        <h2>Vamos conversar sobre sua ideia?</h2>
+        <p>Envie-me um email e brevemente responder-lo-ei.</p>
+      </div>
+    </div>
+    <div class="container">
+      <h3 style="text-align:center"> allan.sossego@hotmail.com</h3>
+    </div>
+   
+  </div>
+  <!--/.container--> 
+</section>
+
+<!--/.page-section-->
+<footer class="copyright">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="social pull-left">  <a href="https://www.facebook.com/allan.marques.944"><i class="fa fa-facebook"></i></a>  <a href="https://github.com/Adrwey" target="_blank"><i class="fa fa-github"></i></a> </div>
+      </div>
+      <div class="col-md-6"> <span class="pull-right">Copyright 2019 | Todos os direitos reservados</span> </div>
+    </div>
+    <!-- / .row --> 
+  </div>
+</footer>
+<a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a> 
+
+<!--[if lte IE 8]><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><![endif]--> 
+<script src="js/modernizr-latest.js"></script> 
+<script src="js/jquery-1.8.2.min.js" type="text/javascript"></script> 
+<script src="js/bootstrap.min.js" type="text/javascript"></script> 
+<script src="js/jquery.isotope.min.js" type="text/javascript"></script> 
+<script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script> 
+<script src="js/jquery.nav.js" type="text/javascript"></script> 
+<script src="js/jquery.cslider.js" type="text/javascript"></script> 
+<script src="js/jquery.diagram.js"></script> 
+ <script src="contact/jqBootstrapValidation.js"></script>
+ <script src="contact/contact_me.js"></script>
+<script src="js/custom.js" type="text/javascript"></script> 
+<script src="js/owl-carousel/owl.carousel.js"></script>
 </body>
 </html>
