@@ -1162,3 +1162,20 @@ nav#filter li {
 	user-select: none;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
+
+
+/*ALTERAÇÕES ALLANZINHO GAMEPLAYS*/
+
+.allantop{
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+.centro {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:100px;
+    margin-bottom: -170px;
+    width: 6em
+}
+
