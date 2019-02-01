@@ -2,15 +2,16 @@
 Theme Name: Free-Portfolio-HTML5-Responsive-Website-Sam
 Author URI: http://webthemez.com/ 
 */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 * {
 	margin: 0;
 	padding: 0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Noto Serif', serif;
 }
 body {
 	font-size: 14px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Noto Serif', serif;
 	-webkit-font-smoothing: antialiased;
 	background: #fff;
 }
@@ -215,7 +216,7 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 }
 .navbar-brand b {
 	color: #fff;
-	font-family: 'Pacifico', cursive;
+	font-family: 'Noto Serif', serif;
 	font-weight: 400;
 }
 .logo {
@@ -556,7 +557,7 @@ min-height:200px;
 	line-height: 110px;
 	z-index: 2;
 	font-size: 40px;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Noto Serif', serif;
 	font-weight: 400;
 	letter-spacing: -1px;
 	margin: 21px 0 0 0;
@@ -565,7 +566,7 @@ min-height:200px;
 .percent:after {
 	content: '%';
 	margin-left: 0.1em;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Noto Serif', serif;
 	font-weight: 100;
 }
 .chart canvas {
@@ -844,7 +845,7 @@ hr {
 }
 body {
 	margin: 0;
-	font-family: Arial, sans-serif;
+	font-family: 'Noto Serif', serif;
 }
 #navigation {
 	position: fixed;
@@ -1177,5 +1178,12 @@ nav#filter li {
     margin-top:100px;
     margin-bottom: -170px;
     width: 6em
+}
+h1, h2{
+	font-family: 'Raleway', sans-serif;
+}
+.citacao{
+	color: #fff;
+	font-size: 20px;
 }
 
