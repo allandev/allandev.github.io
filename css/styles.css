@@ -17,12 +17,12 @@ body {
 }
 ::selection {
 	color: #fff;
-	background: #5887FF;
+	background: #FF0066;
 }
 
 ::-moz-selection {
  color: #fff;
- background: #5887FF;
+ background: #FF0066;
 }
 p {
 	color: #858585;
@@ -59,7 +59,7 @@ p {
 	background: rgba(255,255,255,0.35);
 }
 a {
-	color: #5887FF;
+	color: #FF0066;
 	text-decoration: none;
 	text-shadow: none;
 	-webkit-transition: all 0.2s linear;
@@ -80,7 +80,7 @@ a:hover {
 	background: #DF6B00;
 }
 .btn-primary {
-	background: #5887FF;
+	background: #FF0066;
 }
 .form-control {
 	border-radius: 0px;
@@ -102,7 +102,7 @@ a:hover {
 	bottom: 20px;
 	right: 20px;
 	z-index: 5;
-	background: #5887FF;
+	background: #FF0066;
 }
 .topHome .fa-2x {
 	font-size: 20px;
@@ -126,18 +126,18 @@ h2 {
 	top: 0px;
 }
 .navbar-inverse .navbar-toggle {
-	border-color: #5887FF;
-	background-color: #5887FF;
+	border-color: #FF0066;
+	background-color: #FF0066;
 }
 .header .navbar {
 	margin: 0;
 	background: transparent !important;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
-/*background-color: #5887FF;*/;
+/*background-color: #FF0066;*/;
 }
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-	background: #5887FF;
+	background: #FF0066;
 }
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
 	color: #fff;
@@ -152,7 +152,7 @@ h2 {
 	color: #FFFFFF;
 }
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-	color: #5887FF;
+	color: #FF0066;
 	background: none;
 }
 .navbar-toggle {
@@ -166,7 +166,7 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 /*.carousel-inner*/
 #myCarousel {
 	margin-top: 50px;
-	border-bottom: 4px solid #5887FF;
+	border-bottom: 4px solid #FF0066;
 }
 .carousel-inner > .item {
 }
@@ -193,13 +193,13 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 }
 .actionPanel {
 	padding: 25px 0;
-	background: #5887FF;
+	background: #FF0066;
 }
 .actionPanel h3 {
 	margin: 0px;
 }
 .circle {
-	background: #5887FF;
+	background: #FF0066;
 	height: 60px;
 	width: 60px;
 	border-radius: 35px;
@@ -212,7 +212,7 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 	padding: 16px 15px;
 	line-height: 18px;
 	height: 50px;
-	/*color:#5887FF;*/;
+	/*color:#FF0066#FF0066;*/;
 }
 .navbar-brand b {
 	color: #fff;
@@ -243,7 +243,7 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
 	color: #fff;
 	background: none;
-	border-bottom:2px solid #5887FF;
+	border-bottom:2px solid #FF0066;
 	border-radius: 0px;
 }
 .navbar-nav > li:hover > a {
@@ -280,7 +280,7 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 	background: rgb(44, 44, 44);
 }
 .darkBg .fa {
-	color: #5887FF;
+	color: #FF0066;
 }
 /*--- Banner ----*/
 .banner-container {
@@ -343,12 +343,12 @@ margin:0 6px;
 font-size:26px;
 }
 .banner-content .social-icons a:hover {
-background:#5887FF;
+background:#FF0066;
 color:#fff;
-border: 1px solid #5887FF;
+border: 1px solid #FF0066;
 }
 .banner-content .hireMe:hover{
-background:#5887FF;
+background:#FF0066;
 color:#fff;
 }
 .banner-content .hireMe{
@@ -598,7 +598,7 @@ min-height:200px;
 }
 .experience-details .icon-block i {
 	font-size: 60px;
-	color: #5887FF;
+	color: #FF0066;
 	margin: 8px 0 0;
 }
 .experience-details span {
@@ -626,7 +626,7 @@ font-size: 1.2em;
 margin: 10px 0 !important;
 }
 .progress-bar {
-	background-color: #5887FF;
+	background-color: #FF0066;
 }
 /* Services
     -------------------------------------------------*/
@@ -666,7 +666,7 @@ margin: 10px 0 !important;
 .team-member .member-img img {
 	max-width: 250px;
 	margin: 0 auto;
-	border: 1px solid #5887FF;
+	border: 1px solid #FF0066;
 }
 .team-member h4 {
 	font-size: 19px;
@@ -741,7 +741,7 @@ nav#filter a {
 	color:#737373;
 }
 a.current {
-	color: #5887FF !important; 
+	color: #FF0066 !important; 
 }
 .portfolio-items article img {
 	width: 100%;
@@ -893,7 +893,7 @@ footer {
 	background: #fff;
 }
 .social a:hover {
-	color: #5887FF;
+	color: #FF0066;
 }
 .social a {
 	font-size: 23px;
@@ -937,7 +937,7 @@ color:#fff;
 }
 #contactUs .btn{
 background: #fff;
-color: #5887FF;
+color: #FF0066;
 }
 #contactUs .btn:hover{
 color: #000;
