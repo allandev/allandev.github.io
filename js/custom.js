@@ -1,5 +1,7 @@
 // Custom Script
 // Developed by: Samson.Onna
+
+
 var customScripts = {
     profile: function () {
         // portfolio

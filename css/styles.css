@@ -270,7 +270,7 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 	font-weight: 200;
 }
 .page-section h2 {
-	color: #000;
+	color: #fff;
 }
 .page-section p {
 	font-size: 1.1em;
@@ -930,10 +930,10 @@ footer {
 background: #DBDBDB;	
 	}
 #contactUs{
-	 background: #3394D5;
+	 background: #343434;
 }
 #contactUs p{
-color:#000;
+color:#fff;
 }
 #contactUs .btn{
 background: #fff;
@@ -1188,7 +1188,7 @@ h1, h2{
 	font-size: 20px;
 }
 
-h1.rosa{
+.rosa{
 	color: #FF0066;
 	font-weight: 1000;
 }
